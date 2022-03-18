@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+html {
+  font-size: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  background: --light;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+  color: --light-bg-text;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.box {
+  border: 1px solid black;
+  border-top: 8px solid black;
+  padding: 1em;
+  border-radius: 14px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+
+#soc-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2em;
+}
+
+.soc-header-1 {
+  border: 1px solid black;
+}
+
+.right {
+  border: 1px solid black;
+}
+
+#soc-header h1,
+#soc-header p {
+  font-weight: 700;
+}
+
+.users {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fb-box, .tw-box,
+.ig-box, .yt-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 33%;
+  margin: 0 1em;
+  text-align: center;
+}
+
+.users h1 {
+  font-size: 3.8rem;
+}
+
+.gray-caps {
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+
+.soc-growth {
+  font-weight: 700;
+  margin: 1em 0;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,33 @@
+// USERS SECTION
+.users {
+    display: flex;
+    justify-content: center;
+}
+
+.fb-box, .tw-box,
+.ig-box, .yt-box {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin: 0 1em;
+    text-align: center;
+}
+
+.users h3, .users h1, 
+.users p {
+ // NONE AT THE MOMENT   
+}
+
+.users h1 {
+    font-size: 3.8rem;
+}
+
+.gray-caps {
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+.soc-growth {
+    font-weight: 700;
+    margin: 1em 0;
+}

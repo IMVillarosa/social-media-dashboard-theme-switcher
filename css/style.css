@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+
 html {
   font-size: 15px;
   -webkit-box-sizing: border-box;
@@ -11,7 +17,7 @@ html {
 }
 
 body {
-  background: --light;
+  background: white;
 }
 
 body,
@@ -19,7 +25,7 @@ h1,
 h2,
 h3,
 p {
-  color: --light-bg-text;
+  color: #000;
   margin: 0;
   padding: 0;
 }
@@ -45,15 +51,29 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   padding: 2em;
 }
 
-.soc-header-1 {
-  border: 1px solid black;
+.l-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.right {
-  border: 1px solid black;
+.l-header h1 {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.l-header .right {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  text-align: right;
+  margin: auto 5em;
 }
 
 #soc-header h1,

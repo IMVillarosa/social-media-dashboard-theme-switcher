@@ -1,15 +1,24 @@
 // HEADER
 #soc-header {
     display: flex; 
+    flex-direction: row;
     padding: 2em;
 }
 
-.soc-header-1 {
-    border: 1px solid black;
+.l-header {
+    display: flex;
+    // border: 1px solid red;
 }
 
-.right {
-    border: 1px solid black;
+.l-header h1 {
+    flex-basis: 50%;
+}
+
+
+.l-header .right {
+    flex-basis: 100%;
+    text-align: right;
+    margin: auto 5em; 
 }
 
 #soc-header h1,

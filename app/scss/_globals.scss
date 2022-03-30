@@ -1,3 +1,6 @@
+@import "colors";
+@import "typography";
+
 // Reset CSS
 html {
     font-size: 15px;
@@ -7,7 +10,7 @@ html {
 *, *::before, *::after { box-sizing: inherit; }
   
 body {
-    background: --light;
+    background: $bg-l-white;
 }
 
 body,
@@ -15,7 +18,7 @@ h1,
 h2,
 h3,
 p {
-    color: --light-bg-text;
+    color: #000;
     margin: 0;
     padding: 0;
 }
@@ -32,4 +35,6 @@ p {
     padding: 1em;
     border-radius: 14px;
 }
+
+
 

@@ -1,0 +1,26 @@
+.stats-1,
+.stats-2 {
+  display: flex;
+  border: 1px solid red;
+  justify-content: space-between;
+}
+
+.stats-box-1, .stats-box-2,
+.stats-box-3, .stats-box-4,
+.stats-box-5, .stats-box-6,
+.stats-box-7, .stats-box-8 {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  border: 1px solid black;
+}
+.soc-header-2,
+.stats h3 {
+    color: $text-l-grayish-blue;
+}
+
+.stat-count {
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+
